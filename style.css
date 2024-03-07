@@ -73,7 +73,7 @@ section{
     justify-content: space-between;
     
 }
-.nutrition li b{
+.nutrition li span{
     color: var(--darkraspberry);
 }
 h1,h2,h4{
@@ -106,3 +106,25 @@ ol li::marker{
 hr{
    border:1px solid var(--lightfrey);
 }
+span{
+    font-weight: bold;
+}
+/* table */
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+ .nutrition table td {
+    padding: 8px;
+    border-bottom: 1px solid var(--lightfrey);
+  }
+  .nutrition table td:last-child {
+   font-weight: bold;
+   color:var(--darkraspberry)
+  }
+  
+  .nutrition table tr:last-child td {
+    border-bottom: none;
+  }
+  
